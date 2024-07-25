@@ -1,0 +1,5 @@
+echo "* text=auto" > .gitattributes
+echo "*.bat text eol=crlf" >> .gitattributes
+echo "*.cmd text eol=crlf" >> .gitattributes
+echo "*.ps1 text eol=crlf" >> .gitattributes
+echo "*.sh text eol=lf" >> .gitattributes
