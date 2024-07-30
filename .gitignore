@@ -23,5 +23,5 @@ jspm_packages/
 .DS_Store
 Thumbs.db
 
-# Other settings
+# Environment variables
 .env
