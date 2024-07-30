@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.navbar {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  flex: 1;
+  overflow-y: scroll;
+  background-image: url('/path-to-your-image.jpg'); /* 이 경로는 실제 이미지 경로로 변경해야 합니다. */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
